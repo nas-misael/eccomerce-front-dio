@@ -1,0 +1,84 @@
+.card {
+    margin-bottom: 10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ececec;
+    align-items: center;
+    -webkit-transition: .2s;
+}
+
+.card:hover {
+    border: 1px solid #3BB77E;
+}
+
+.render-img {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    margin-right: 5px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.valores {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desconto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valorReal {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3BB77E;
+}
+
+.valorDesconto {
+    font-size: 14px;
+    color: #adadad;
+    margin: 0 0 0 7px;
+    text-decoration: line-through;
+}
+
+.title {
+    font-family: "Quicksand", sans-serif;
+    color: #253D4E;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: calc(1.325rem + .9vw);
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #DEF9EC;
+    border: 1px solid #DEF9EC;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    color: #3BB77E;
+    transition: all .3s ease 0s;
+}
+
+.button:hover {
+    background: #3BB77E;
+    color: #fff;
+}

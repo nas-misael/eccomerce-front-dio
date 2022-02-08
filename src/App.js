@@ -5,6 +5,7 @@ import Routes from './routes';
 import { Container } from '@material-ui/core/';
 import Header from './components/Header';
 
+
 const App = () => {
   
   const localCart = JSON.parse(localStorage.getItem('dioshopping: cart'))
@@ -15,12 +16,10 @@ const App = () => {
   
   return(
     <Provider store={store}>
-      <Container maxWidth="xl">
         <Router>
           <Header />
           <Routes />
         </Router>
-      </Container> 
     </Provider>
   )
 }
